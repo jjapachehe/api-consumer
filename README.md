@@ -9,7 +9,7 @@ This program test the APIs given as parameter and return the response code.
 Clone the project
 
 ```bash
-  git clone git@git.rosetta.ericssondevops.com:jhon.apache/api-consumer.git
+  git clone git@github.com:jjapachehe/api-consumer.git
 ```
 
 Go to the project directory
@@ -26,11 +26,14 @@ Execution
 
 ## Authors
 
-- [@Jhon apache](https://gitlab.rosetta.ericssondevops.com/jhon.apache)
+- [@Jhon apache](https://github.com/jjapachehe)
 
 
 ## Contributing
 
 Contributions are always welcome!
 
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
 
