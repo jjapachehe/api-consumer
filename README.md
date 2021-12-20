@@ -18,7 +18,7 @@ Go to the project directory
   cd api-consumer
 ```
 
-add you url's into apis file
+add your url's into apis file
 
 ```bash
   echo "https://www.google.com/" > apis.lst

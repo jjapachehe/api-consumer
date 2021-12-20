@@ -5,7 +5,7 @@
 ###########################################
 
 from urllib2 import Request, urlopen, URLError
-import argparse
+import argparse, datetime
 
 parser = argparse.ArgumentParser(description='This program test the APIs given as parameter and return the response code.', usage='Execute using the following structure: ./main.py -f apis.lst')
 parser.add_argument('-file', '-f', help='Use the following filename: apis.lst')
@@ -24,6 +24,8 @@ def readInputFile(file):
 
 def reqApi():
     """Fetch the url and get the response code, in case of error it generates an exception"""
+    print("\tRESULT CODE TEST EXECUTION")
+    print("Date: {}".format(datetime.datetime.now()))
     for url in [x for x in readInputFile(apis)]:
         req = Request(url)
         try:    
